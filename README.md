@@ -7,6 +7,7 @@
 ./make.sh <ファイル名>.tex
 
 ```
+
 ## 編集方法
 
 question.texの中の`\item`ってところを編集したら、
@@ -40,7 +41,7 @@ question.tex
 
 question.pdf
 
-```
+```text
 
 (n) 江戸幕府の最初の将軍は？
 
@@ -50,7 +51,7 @@ question.pdf
 
 ちなみにans.texは
 
-```
+```text
 
 \item 徳川家康
 \item 源
