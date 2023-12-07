@@ -32,12 +32,11 @@ question.tex
 ```tex
 
 \item 江戸幕府の最初の将軍は？ \label{ieyasu}
-
 \item \ref{ieyasu}の氏は？
 
 ```
 
-question.texの出力
+question.pdf
 
 ```
 
