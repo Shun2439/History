@@ -18,7 +18,7 @@ jobs:
           git checkout pdf
           git merge main
       - name: Setup TeX Live
-        uses: dante-ev/latex-action@v1
+        uses: dante-ev/latex-action@latest
         with:
           profile: small
       - name: Compile LaTeX document
