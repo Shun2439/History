@@ -17,10 +17,16 @@ jobs:
           git config user.email shunta.kobayashi24@gmail.com
           git checkout pdf
           git merge main
+      - name: Setup TeX Live
+        uses: dante-ev/latex-action@v1
+        with:
+          profile: small
       - name: Compile LaTeX document
-        run: ptex2pdf -l question.tex
-      - name: Compile LaTeX document
-        run: ptex2pdf -l question.tex
+        run: |
+          ptex2pdf -l question.tex
+          ptex2pdf -l question.tex
+          ptex2pdf -l ans.tex
+          ptex2pdf -l ans.tex
       - name: Push PDF file
         run: |
           git add .
