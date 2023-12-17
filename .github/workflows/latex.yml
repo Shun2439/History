@@ -18,13 +18,9 @@ jobs:
           git checkout pdf
           git merge main
       - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
-        with:
-          root_file: question.tex
+        run: ptex2pdf -l question.tex
       - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
-        with:
-          root_file: ans.tex
+        run: ptex2pdf -l question.tex
       - name: Push PDF file
         run: |
           git add .
