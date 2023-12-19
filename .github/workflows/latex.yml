@@ -1,4 +1,6 @@
 name: LaTeX compilation
+
+#トリガーの設定？
 on:
   push:
     branches:
@@ -17,16 +19,18 @@ jobs:
           git config user.email shunta.kobayashi24@gmail.com
           git checkout pdf
           git merge main
-      - name: Setup TeX Live
+      - name: compile questions
         uses: dante-ev/latex-action@latest
         with:
-          profile: small
-      - name: Compile LaTeX document
-        run: |
-          ptex2pdf -l question.tex
-          ptex2pdf -l question.tex
-          ptex2pdf -l ans.tex
-          ptex2pdf -l ans.tex
+          root_file: question.tex
+          compiler: ptex2pdf
+          args: -l
+      - name: compile answers
+        uses: dante-ev/latex-action@latest
+        with:
+          root_file: ans.tex
+          compiler: ptex2pdf
+          args: -l
       - name: Push PDF file
         run: |
           git add .
