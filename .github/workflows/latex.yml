@@ -7,6 +7,8 @@ on:
       - main
 jobs:
   build:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
