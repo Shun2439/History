@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.5.7)  20 DEC 2023 00:09
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.5.7)  20 DEC 2023 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -247,7 +247,11 @@ File: l3backend-dvips.def 2023-04-19 L3 backend support: dvips
 \g__pdf_backend_link_int=\count288
 \g__pdf_backend_link_sf_int=\count289
 )
-No file question.aux.
+(./question.aux
+
+LaTeX Warning: Label `keshintonoran' multiply defined.
+
+)
 \openout1 = `question.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -286,160 +290,21 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 23.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 31.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 31.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 31.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 31.
+ [1
 
+] [2] Excluding 'comment' comment. [3]
+(./question.aux)
 
-LaTeX Warning: Reference `karoku' on page 1 undefined on input line 31.
-
-
-LaTeX Warning: Reference `shotenroku' on page 1 undefined on input line 31.
-
-
-LaTeX Warning: Reference `puraido' on page 1 undefined on input line 34.
-
-
-LaTeX Warning: Reference `kinrokukousaishousho' on page 1 undefined on input li
-ne 39.
-
-
-LaTeX Warning: Reference `titsurokushobun' on page 1 undefined on input line 40
-.
-
-
-LaTeX Warning: Reference `huheshizoku' on page 1 undefined on input line 42.
-
-
-LaTeX Warning: Reference `saganoran' on page 1 undefined on input line 43.
-
-
-LaTeX Warning: Reference `saganoran' on page 1 undefined on input line 44.
-
-
-LaTeX Warning: Reference `keshintonoran' on page 1 undefined on input line 46.
-
-
-LaTeX Warning: Reference `keshintonoran' on page 1 undefined on input line 47.
-
-
-LaTeX Warning: Reference `kumamototindai' on page 1 undefined on input line 48.
-
-
-
-LaTeX Warning: Reference `keshintonoran' on page 1 undefined on input line 49.
-
-
-LaTeX Warning: Reference `keshintonoran' on page 1 undefined on input line 50.
-
-
-LaTeX Warning: Reference `akidukinoran' on page 1 undefined on input line 51.
-
-
-LaTeX Warning: Reference `akidukinoran' on page 1 undefined on input line 52.
-
-
-LaTeX Warning: Reference `akidukinoran' on page 1 undefined on input line 53.
-
-
-LaTeX Warning: Reference `haginoran' on page 1 undefined on input line 54.
-
-
-LaTeX Warning: Reference `haginoran' on page 1 undefined on input line 55.
-
-
-LaTeX Warning: Reference `haginoran' on page 1 undefined on input line 56.
-
-
-LaTeX Warning: Reference `haginoran' on page 1 undefined on input line 57.
-
-
-LaTeX Warning: Reference `senansenso' on page 1 undefined on input line 58.
-
-
-LaTeX Warning: Reference `senansenso' on page 1 undefined on input line 59.
-
-
-LaTeX Warning: Reference `senansenso' on page 1 undefined on input line 60.
-
-[1
-
-]
-
-LaTeX Warning: Reference `mibunhiyo' on page 2 undefined on input line 65.
-
-
-LaTeX Warning: Reference `seihuku' on page 2 undefined on input line 66.
-
-
-LaTeX Warning: Reference `hudosan' on page 2 undefined on input line 68.
-
-
-LaTeX Warning: Reference `to_be_kanryogunjin' on page 2 undefined on input line
- 70.
-
-
-LaTeX Warning: Reference `itiro' on page 2 undefined on input line 72.
-
-
-LaTeX Warning: Reference `itiro' on page 2 undefined on input line 73.
-
-
-LaTeX Warning: Reference `gomi' on page 2 undefined on input line 75.
-
-
-LaTeX Warning: Reference `gomi' on page 2 undefined on input line 76.
-
-
-LaTeX Warning: Reference `showatennojutsuroku' on page 2 undefined on input lin
-e 79.
-
-
-LaTeX Warning: Reference `showatennojutsuroku' on page 2 undefined on input lin
-e 80.
-
-
-LaTeX Warning: Reference `showatennojutsuroku' on page 2 undefined on input lin
-e 81.
-
-
-LaTeX Warning: Reference `hyoka' on page 2 undefined on input line 84.
-
-
-LaTeX Warning: Reference `gashinshotan' on page 2 undefined on input line 89.
-
-
-LaTeX Warning: Reference `mizunoto' on page 2 undefined on input line 94.
-
-
-LaTeX Warning: Reference `kinoetatsu' on page 2 undefined on input line 96.
-
-
-LaTeX Warning: Reference `hienoinu' on page 2 undefined on input line 98.
-
-
-LaTeX Warning: Reference `hinotoi' on page 2 undefined on input line 100.
-
-[2] Excluding 'comment' comment. [3] (./question.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6429 strings out of 476715
- 155829 string characters out of 5805604
- 1859075 words of memory out of 5000000
- 26831 multiletter control sequences out of 15000+600000
- 521672 words of font info for 74 fonts, out of 8000000 for 9000
+ 6426 strings out of 476715
+ 155802 string characters out of 5805604
+ 1858075 words of memory out of 5000000
+ 26828 multiletter control sequences out of 15000+600000
+ 521083 words of font info for 71 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  71i,5n,77p,225b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on question.dvi (3 pages, 9316 bytes).
+Output written on question.dvi (3 pages, 9108 bytes).

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.5.7)  20 DEC 2023 00:09
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.5.7)  20 DEC 2023 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -110,7 +110,7 @@ File: l3backend-dvips.def 2023-04-19 L3 backend support: dvips
 \g__pdf_backend_link_int=\count196
 \g__pdf_backend_link_sf_int=\count197
 )
-No file ans.aux.
+(./ans.aux)
 \openout1 = `ans.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -147,12 +147,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 15.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 15.
-[1
+ [1
 
 ] [2] [3] (./ans.aux) ) 
 Here is how much of TeX's memory you used:
- 1431 strings out of 476715
- 24067 string characters out of 5805604
+ 1433 strings out of 476715
+ 24083 string characters out of 5805604
  1856075 words of memory out of 5000000
  21887 multiletter control sequences out of 15000+600000
  520409 words of font info for 68 fonts, out of 8000000 for 9000
