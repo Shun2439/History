@@ -21,18 +21,35 @@ jobs:
           git config user.email shunta.kobayashi24@gmail.com
           git checkout pdf
           git merge main
+
       - name: compile questions
         uses: dante-ev/latex-action@latest
         with:
           root_file: question.tex
           compiler: ptex2pdf
           args: -l
+
+      - name: recompile questions
+        uses: dante-ev/latex-action@latest
+        with:
+          root_file: question.tex
+          compiler: ptex2pdf
+          args: -l
+
       - name: compile answers
         uses: dante-ev/latex-action@latest
         with:
           root_file: ans.tex
           compiler: ptex2pdf
           args: -l
+
+      - name: recompile answers
+        uses: dante-ev/latex-action@latest
+        with:
+          root_file: ans.tex
+          compiler: ptex2pdf
+          args: -l
+
       - name: Push PDF file
         run: |
           git add .
