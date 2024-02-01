@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.5.7)  31 JAN 2024 22:30
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.5.7)  1 FEB 2024 22:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -294,21 +294,21 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
 ] [2] [3]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 151.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 157.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 151.
+(Font)              scaled to size 9.60999pt on input line 157.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 151.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 157.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 151.
+(Font)              scaled to size 9.60999pt on input line 157.
 
 
 LaTeX Warning: Reference `potsudamusengen' on page 4 undefined on input line 15
-1.
+7.
 
 
 LaTeX Warning: Reference `potsudamusengen' on page 4 undefined on input line 15
-2.
+8.
 
 Excluding 'comment' comment. [4] (./question.aux)
 
@@ -319,12 +319,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6449 strings out of 476715
- 156106 string characters out of 5805604
+ 6450 strings out of 476715
+ 156120 string characters out of 5805604
  1858075 words of memory out of 5000000
- 26849 multiletter control sequences out of 15000+600000
+ 26850 multiletter control sequences out of 15000+600000
  521672 words of font info for 74 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  71i,5n,77p,225b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on question.dvi (4 pages, 15904 bytes).
+Output written on question.dvi (4 pages, 16704 bytes).
