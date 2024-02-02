@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.5.7)  1 FEB 2024 22:32
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.5.7)  2 FEB 2024 01:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -310,7 +310,7 @@ LaTeX Warning: Reference `potsudamusengen' on page 4 undefined on input line 15
 LaTeX Warning: Reference `potsudamusengen' on page 4 undefined on input line 15
 8.
 
-Excluding 'comment' comment. [4] (./question.aux)
+[4] Excluding 'comment' comment. [5] (./question.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -327,4 +327,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  71i,5n,77p,239b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on question.dvi (4 pages, 17760 bytes).
+Output written on question.dvi (5 pages, 18116 bytes).
