@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.5.7)  2 FEB 2024 01:56
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.euc) (TeX Live 2023) (preloaded format=platex 2023.5.7)  3 FEB 2024 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -292,39 +292,19 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 23.
  [1
 
-] [2] [3]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 157.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 157.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 157.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 157.
-
-
-LaTeX Warning: Reference `potsudamusengen' on page 4 undefined on input line 15
-7.
-
-
-LaTeX Warning: Reference `potsudamusengen' on page 4 undefined on input line 15
-8.
-
-[4] Excluding 'comment' comment. [5] (./question.aux)
-
-LaTeX Warning: There were undefined references.
-
+] [2] [3] [4] Excluding 'comment' comment. [5]
+(./question.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6450 strings out of 476715
- 156120 string characters out of 5805604
+ 6445 strings out of 476715
+ 156067 string characters out of 5805604
  1858075 words of memory out of 5000000
- 26850 multiletter control sequences out of 15000+600000
- 521672 words of font info for 74 fonts, out of 8000000 for 9000
+ 26847 multiletter control sequences out of 15000+600000
+ 521083 words of font info for 71 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  71i,5n,77p,239b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on question.dvi (5 pages, 18116 bytes).
+Output written on question.dvi (5 pages, 18064 bytes).
